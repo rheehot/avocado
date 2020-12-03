@@ -6,10 +6,12 @@
 }
 
 .menuBar{
+	padding-left: 300px;
 	height: 100px;
-	width: 850%;
+	width: 100%;
 	text-align: center;
-	list-style: none;
+	border: 1px solid #ddd;
+	
 }
 
 .menu-body{	
@@ -18,6 +20,10 @@
 }
 
 .menu-body li{	
-	width: 200px;
+	justify-content: space-between;
+}
+
+.menu-body li a{	
+	text-decoration: none;
 }
 

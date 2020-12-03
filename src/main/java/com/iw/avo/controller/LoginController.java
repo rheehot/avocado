@@ -11,10 +11,10 @@ import lombok.extern.log4j.Log4j;
 @Log4j
 @AllArgsConstructor
 public class LoginController {
-	@RequestMapping("/")
+	@RequestMapping("/login")
 	public String home(Model model) {
-		log.info("Welcome to avocado home!");
+		log.info("login avocado home!");
 		
-		return "main/index";
+		return "login/loginPage";
 	}
 }

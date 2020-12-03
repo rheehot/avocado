@@ -17,4 +17,11 @@ public class MainController {
 		
 		return "main/index";
 	}
+	/////////////////////////임시!//////////////////////////
+	@RequestMapping("/header")
+	public String header(Model model) {
+		log.info("헤더 확인 좀!");
+		
+		return "main/header";
+	}
 }
