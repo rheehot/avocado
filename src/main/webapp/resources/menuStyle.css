@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+	padding:0;
+	margin:0;
+}
+
+.menuBar{
+	height: 100px;
+	width: 850%;
+	text-align: center;
+	list-style: none;
+}
+
+.menu-body{	
+	display: flex;
+	list-style: none;
+}
+
+.menu-body li{	
+	width: 200px;
+}
+
